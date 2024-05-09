@@ -5,3 +5,4 @@
 /.idea
 /client/yarn.lock
 /Cargo.lock
+/front/yarn.lock
