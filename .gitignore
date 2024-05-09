@@ -1,0 +1,7 @@
+/target
+/.env
+/client/node_modules/
+/front/node_modules/
+/.idea
+/client/yarn.lock
+/Cargo.lock

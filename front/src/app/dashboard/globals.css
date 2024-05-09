@@ -1,0 +1,14 @@
+main.responsive{
+    padding: 0;
+    max-inline-size: none;
+}
+
+.scrollbar-hidden {
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer e Edge */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+
+    display: none;
+}

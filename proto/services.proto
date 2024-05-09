@@ -1,0 +1,15 @@
+syntax = "proto3";
+package services;
+
+message ping {
+  int32 data = 1;
+}
+
+message pong {
+  string message = 1;
+}
+
+service Data {
+  rpc Get(ping)  returns (pong);
+}
+
